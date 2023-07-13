@@ -1,0 +1,124 @@
+"'log in' As screen":
+
+    Button1 As button:
+        Fill: =RGBA(114, 161, 176, 1)
+        Font: =Font.'Lato Light'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =24
+        Text: ="LOG IN"
+        Width: =280
+        X: =180
+        Y: =763
+        ZIndex: =1
+
+    TextInput1 As text:
+        BorderColor: =RGBA(29, 32, 33, 1)
+        Color: =RGBA(26, 26, 26, 1)
+        Default: ="Username"
+        Font: =Font.'Lato Light'
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        RadiusBottomLeft: =8
+        RadiusBottomRight: =8
+        RadiusTopLeft: =8
+        RadiusTopRight: =8
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =433
+        ZIndex: =2
+
+    TextInput1_1 As text:
+        BorderColor: =RGBA(29, 32, 33, 1)
+        Color: =RGBA(26, 26, 26, 1)
+        Default: ="Password"
+        Font: =Font.'Lato Light'
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        RadiusBottomLeft: =8
+        RadiusBottomRight: =8
+        RadiusTopLeft: =8
+        RadiusTopRight: =8
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =534
+        ZIndex: =3
+
+    Label1 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Light'
+        FontWeight: =FontWeight.Semibold
+        Height: =52
+        Size: =20
+        Text: |-
+            ="by group #3"
+        Width: =160
+        X: =240
+        Y: =1072
+        ZIndex: =4
+
+    Label2 As label:
+        Color: =RGBA(26, 26, 26, 1)
+        Font: =Font.'Lato Light'
+        FontWeight: =FontWeight.Semibold
+        Height: =60
+        Size: =20
+        Text: ="Forgot your password?"
+        Underline: =true
+        Width: =560
+        X: =40
+        Y: =604
+        ZIndex: =5
+
+    Label2_3 As label:
+        Align: =Align.Center
+        Color: =RGBA(26, 26, 26, 1)
+        Font: =Font.'Lato Light'
+        FontWeight: =FontWeight.Semibold
+        Height: =60
+        Size: =20
+        Text: ="Don't have an account yet?"
+        Width: =560
+        X: =35
+        Y: =891
+        ZIndex: =6
+
+    Label2_4 As label:
+        Align: =Align.Center
+        Color: =RGBA(26, 26, 26, 1)
+        Font: =Font.'Lato Light'
+        FontWeight: =FontWeight.Semibold
+        Height: =60
+        Size: =20
+        Text: ="Register."
+        Underline: =true
+        Width: =560
+        X: =40
+        Y: =922
+        ZIndex: =7
+
+    Label3_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(26, 26, 26, 1)
+        Font: =Font.'Lato Light'
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =32
+        Text: |-
+            ="://netrust"
+        Width: =560
+        X: =40
+        Y: =203
+        ZIndex: =8
+
+    Icon4 As icon.View:
+        Color: =RGBA(26, 26, 26, 1)
+        Height: =29
+        Icon: =Icon.View
+        Width: =39
+        X: =537
+        Y: =554
+        ZIndex: =9
+
